@@ -1,0 +1,201 @@
+body {
+	overflow-x: hidden;
+}
+.wrapper {
+	top: 50px;
+	position:relative;
+}
+.panel-home , .panel-add-job{
+	margin-top: 10px;
+}
+.panel-home h4 {
+	text-align: center;
+}
+.card-menu {
+    width: 40%;
+    border: 1px solid #bfbfbf;
+    width: 100%;
+    margin-top: 5px;
+}
+.image-icon{
+	width: 100%;
+}
+.job-icon{
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+	float: left;
+}
+.job-desc{
+	float: left;
+	padding-top: 13px;
+}
+.clear-fix{
+	clear: both;
+}
+.job-desc a {
+	cursor: pointer;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.panel-add-job label{
+	text-transform: uppercase;
+}
+.table-bordered{
+	border: 1px solid #bfbfbf;
+}
+.list-of-job-request{
+	padding-top: 10px;
+}
+.tool-bar{
+	border: 1px solid #bfbfbf;
+	padding: 5px;
+}
+.add-new{
+	float: left;
+}
+.search-by{
+	float: left;
+	margin-left: 10px;
+	width: 180px;
+}
+.tool-bar .form-group{
+	margin-bottom: 0px;
+}
+.search-label{
+	float: left;
+	margin-top: 9px;
+	margin-left: 20px;
+	font-size: 9pt;
+}
+.form-search-field{
+	float: left;
+	width: 250px;
+	margin-left: 5px;
+}
+.form-record-count{
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.btn-add-job-req{
+	float: right;
+	margin-right: 15px;
+	width: 100px;
+}
+.modal-header-custom{
+	background-image: linear-gradient(to bottom,#3c3c3c 0,#222 100%);
+	color: #fff;
+}
+
+.login-form{
+	top:30px;
+	position: relative;
+}
+
+.alert-error-box{
+	background-color: #e74c3c;
+	box-shadow: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	padding: 13px 5px 5px 15px;
+}
+.alert-success-box{
+	background-color: #2ecc71;
+	box-shadow: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	padding: 13px 5px 5px 15px;
+}
+.login-msg-alert p{
+	color: #fff;
+	font-weight: bold;
+
+}
+#alert-job-req{
+	display: none;
+}
+#alert-job-req p{
+	color: #fff;
+	font-weight: bold;
+}
+#alert-login{
+	display: none;
+}
+#alert-login p{
+	color: #fff;
+	font-weight: bold;
+}
+.logo-img{
+	padding-top: 15px;
+	height: 120px;
+	width: 120px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.logo-style{
+	width: 100%;
+}
+.empty-records{
+	font-size: 10pt;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #bfbfbf;
+	padding: 10px;
+}
+.edit-job{
+	cursor: pointer;
+	font-size: 10pt;
+	font-weight: bold;
+}
+.prev-job-tools{
+	margin-bottom: 8px;
+}
+
+.save-job{
+	display: none;
+	float: left;
+	margin-left: 6px;
+	width: 80px;
+}
+.btn-edit-job{
+	float: left;
+	width: 70px;
+}
+.cancel-job{
+	float: left;
+}
+#alert-prev-job-req{
+	display: none;
+}
+#alert-prev-job-req p{
+	color: #fff;
+	font-weight: bold;
+}
+#btn-prev-job{
+	width: 70px;
+}
+#btn-delete-job{
+	margin-top: 5px;
+	width: 70px;
+}
+.btn-delete-job {
+	margin-left: 5px;
+	float: left;
+}
+.print-this{
+	float: right;
+}
+.td_class {
+    white-space: nowrap; 
+    width: 5em; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  
+}
+.btn-search{
+	float: left;
+	margin-left: 5px;
+	width: 90px;
+	height: 33px;
+}
